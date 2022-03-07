@@ -15,7 +15,7 @@ class getSmallest:
         for i in range(self.half_size, -1, -1):
             self.heapify(i, self.size)
         for i in range(self.size, x - 1, -1):
-            print(i)
+            #print(i)
             self.exchange(i, 0)
             self.size -= 1
             self.heapify(0, self.size)
